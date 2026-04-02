@@ -1,0 +1,16 @@
+if SHIELD_PZOW2_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "pzow2"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_PZOW2_LEFT
+
+if SHIELD_PZOW2_LEFT || SHIELD_PZOW2_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_PZOW2_LEFT || SHIELD_PZOW2_RIGHT
