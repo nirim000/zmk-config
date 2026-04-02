@@ -29,3 +29,7 @@ include:
     shield: splitkb_aurora_corne_right
   - board: pzo42069_left
   - board: pzo42069_right
+  - board: c_esp32s3_corne
+    shield: pzow2_left
+  - board: c_esp32s3_corne
+    shield: pzow2_right
