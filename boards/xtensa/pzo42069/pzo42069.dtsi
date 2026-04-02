@@ -6,7 +6,8 @@
 /dts-v1/;
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "pzo42069-pinctrl.dtsi"
+#include "pzo42069_left-pinctrl.dtsi"
+#include "pzo42069_right-pinctrl.dtsi"
 #include "pzo42069-layouts.dtsi"
 
 / {
