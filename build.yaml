@@ -18,3 +18,14 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: sparkfun_pro_micro_rp2040
+    shield: splitkb_aurora_corne_left
+  - board: sparkfun_pro_micro_rp2040
+    shield: splitkb_aurora_corne_right
+  - board: adafruit_kb2040
+    shield: splitkb_aurora_corne_left
+  - board: adafruit_kb2040
+    shield: splitkb_aurora_corne_right
+  - board: pzo42069_left
+  - board: pzo42069_right
