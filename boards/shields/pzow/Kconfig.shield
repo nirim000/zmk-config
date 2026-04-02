@@ -1,0 +1,5 @@
+config SHIELD_PZOW_LEFT
+    def_bool $(shields_list_contains,pzow_left)
+
+config SHIELD_PZOW_RIGHT
+    def_bool $(shields_list_contains,pzow_right)

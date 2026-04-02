@@ -1,18 +1,12 @@
 // This file was generated from a template. Edit it to match your keyboard.
-// See https://docs.zephyrproject.org/4.1.0/hardware/porting/board_porting.html
-// and https://zmk.dev/docs/development/hardware-integration/new-shield for more
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-/dts-v1/;
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "pzo42069-pinctrl.dtsi"
-#include "pzo42069-layouts.dtsi"
+#include "pzow-layouts.dtsi"
 
 / {
-    model = "PZOW";
-    compatible = "pzo42069";
-
     chosen {
         zmk,physical-layout = &default_layout;
     };

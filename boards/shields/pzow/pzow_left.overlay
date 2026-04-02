@@ -2,8 +2,7 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-#include "pzo42069.dtsi"
-#include "pzo42069_left-pinctrl.dtsi"
+#include "pzow.dtsi"
 
 &kscan {
     // Replace these comments with the GPIO pins in the matrix for the left side.
